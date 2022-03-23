@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="img/pokeball.png" type="pokeball.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="primer-rectangulo">
+            <div class="circulo">
+                <div class="primer-circulo">
+                    <div class="segundo-circulo">
+                        <div class="tercer-circulo">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="franja">
+
+                </div>
+            </div>
+        </div>
+        <div class="segundo-rectangulo">
+            <div class="division-1">
+
+            </div>
+            <div class="division-2">
+
+            </div>
+            <div class="division-3">
+
+            </div>
+            <div class="division-4">
+
+            </div>
+            <div class="division-5">
+
+            </div>
+        </div>
+        <div class="tercero-rectangulo">
+            <div class="seccion-1">
+                <div class="luces">
+                    <div class="segmento-1">
+
+                    </div>
+                    <div class="segmento-2">
+                        <div class="rectangulito">
+
+                        </div>
+                        <div class="rectangulito">
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="luz">
+                    <div class="reflejo">
+
+                    </div>
+                </div>
+            </div>
+            <div class="seccion-2">
+                <div class="margen">
+                    <div class="pantalla">
+                        <div class="inicio visible">
+                            <h3 class="visible">Bienvenido Entrenador Pokémon</h3>
+                            <label class="visible" for="pokemon">¿Qué pokémon deseas buscar?:</label>
+                            <input type="text" class="visible" id="pokemon" name="pokemon" placeholder="Ejemplo: psyduck">
+                        </div>
+                        <div class="final no-visible">
+                            <img src="img/pokeball.png" alt="pokeball.png" id="pokeImg">
+                            <div class="texto">
+                                <p id="pokeName"></p>
+                                <p id="pokeType"></p>
+                                <p id="pokeStats"></p>
+                                <p id="pokeMove"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botones">
+                        <button class="buscar" onclick="pokedex()">
+                            Buscar
+                        </button>
+                        <button class="borrar" onclick="regresar()">
+                            Borrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-2">
+        <div class="medio-circulo">
+            <div class="medio-circulo-1">
+                <div class="cruz">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

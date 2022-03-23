@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 550px;
+    height: 550px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.primer-rectangulo {
+    width: 430px;
+    height: 250px;
+    background-color: rgb(87, 12, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 2px 0 25px black;
+}
+
+.circulo {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(240, 255, 255, 0.562);
+    clip-path: circle(40% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primer-circulo {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(87, 12, 122);
+    clip-path: circle(35% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundo-circulo {
+    width: 150px;
+    height: 200px;
+    background-color: rgba(240, 255, 255, 0.562);
+    clip-path: circle(30% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.tercer-circulo {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(37, 146, 55);
+    clip-path: circle(30% at 50% 50%);
+    position: absolute;
+}
+
+.franja {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(87, 12, 122);
+    position: absolute;
+    z-index: -1;
+}
+
+.segundo-rectangulo {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(87, 12, 122);
+    display: flex;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 0 25px black;
+}
+
+.division-1 {
+    width: 25px;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.division-2 {
+    width: 120px;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.division-3 {
+    width: 45px;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.division-4 {
+    width: 280px;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.division-5 {
+    width: 45px;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.tercero-rectangulo {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(87, 12, 122);
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    box-shadow: 2px 10px 25px black;
+}
+
+.seccion-1 {
+    width: 120px;
+    height: 100%;
+    border-right: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.luces {
+    width: 100%;
+    height: 70px;
+}
+
+.segmento-1 {
+    width: 100%;
+    height: 50%;
+}
+
+.segmento-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rectangulito {
+    width: 15px;
+    height: 10px;
+    background-color: rgb(37, 146, 55);
+    border: 2px solid black;
+}
+
+.luz {
+    width: 100%;
+    height: 80px;
+    clip-path: circle(37% at 50% 50%);
+    background-color: rgb(48, 144, 220);
+}
+
+.reflejo {
+    width: 100%;
+    height: 40px;
+    clip-path: circle(5% at 40% 50%);
+    background-color: rgba(250, 251, 252, 0.658);
+}
+
+.seccion-2 {
+    width: 430px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margen {
+    width: 390px;
+    height: 90%;
+    background-color: rgb(41, 37, 37);
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pantalla {
+    width: 350px;
+    height: 80%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.final img {
+    width: 150px;
+    height: 150px;
+}
+
+.final {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto p{
+    margin: 7px 0;
+    line-height: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+.botones {
+    width: 110px;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.buscar {
+    width: 40%;
+    height: 70%;
+    background-color: rgb(223, 217, 217);
+    border-radius: 5px;
+    font-size: x-small;
+}
+
+.borrar {
+    width: 40%;
+    height: 70%;
+    background-color: rgb(223, 217, 217);
+    border-radius: 5px;
+    font-size: x-small;
+}
+
+.contenedor-2 {
+    width: 150px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.medio-circulo {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(87, 12, 122);
+    clip-path: circle(50% at 3% 50%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 2px 0 25px black;
+}
+
+.medio-circulo-1 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(41, 37, 37);
+    clip-path: circle(50% at 3% 50%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cruz{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(139, 134, 134);
+    clip-path: polygon(0 38%, 34% 37%, 34% 0, 66% 0, 66% 36%, 100% 36%, 100% 65%, 66% 65%, 66% 100%, 35% 100%, 35% 65%, 0 65%);
+    margin-left: 5px;
+}
+
+.no-mostrar {
+    display: none;
+}
+
+.no-visible {
+    display: none;
+}
+
+#pokeType {
+    color: rgb(22, 209, 209);
+}
+
+#pokeStats {
+    color: rgb(24, 240, 132);
+}
+
+#pokeMove {
+    color: rgb(218, 196, 72);
+}
